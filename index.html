@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Pallete</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #bg{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+        }
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .btn{
+            border: 1px solid white;
+            color: black;
+            background-color: transparent;
+            padding: 10px 20px;
+            text-decoration: none;
+
+        }
+        .btn:hover{
+            border: 1px solid black;
+            color: black;
+            background-color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .bg-text{
+            background-color: black;
+            color: white;
+            padding: 20px 40px;
+            width: 20%;
+        }
+    </style>
+</head>
+<body>
+    <div id="bg">
+        <div class="container">
+            <div class="bg-text" id="text">BACKGROUND COLOR : </div>
+            <br>
+            <a href="#" id="click" class="btn">Click Me</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
